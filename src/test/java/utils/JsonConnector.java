@@ -17,7 +17,7 @@ public class JsonConnector {
      * @throws JsonParseException
      * @throws IOException
      */
-    public static Data readData(File file) throws JsonParseException, IOException {
+    public static Data readData(File file) {
         try {
             Gson parser = new Gson();
             BufferedReader buffer = new BufferedReader(new FileReader(file));
@@ -36,7 +36,7 @@ public class JsonConnector {
      * @throws JsonParseException
      * @throws IOException
      */
-    public static Student fillStudentData(File file) throws JsonParseException, IOException {
+    public static Student fillStudentData(File file) {
         try {
             Gson parser = new Gson();
             BufferedReader buffer = new BufferedReader(new FileReader(file));
