@@ -1,0 +1,6 @@
+{
+  "port": null,
+  "baseURI": "http://www.thetestingworldapi.com/api",
+  "basePath": "/studentsDetails",
+  "statusCode": 200
+}
